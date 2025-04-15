@@ -1,4 +1,4 @@
-<a href="https://ibb.co/6RSdDCfn"><img src="https://i.ibb.co/6RSdDCfn/IMG-20250416-001538.jpg" alt="IMG-20250416-001538" border="0"></a>
+<a href="https://ibb.co/6RSdDCfn"><img src="https://i.ibb.co/990My5C8/IMG-20250416-001538.jpg" alt="IMG-20250416-001538" border="0" /></a>
 
 <a href="https://ibb.co/zTrfmXdS"><img src="https://i.ibb.co/nNbkw7pD/Add-a-heading-20250416-002450-0000.png" alt="Add-a-heading-20250416-002450-0000" border="0" /></a>
 

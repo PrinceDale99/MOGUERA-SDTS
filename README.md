@@ -13,7 +13,7 @@ The name MOGUERA-SDTS is inspired by one of my favorite kaiju, Moguera, a powerf
 - [Usage](#usage)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-
+- [Live Demo](#live-demo)
 ## Project Overview
 
 In today’s fast-paced academic environment, teachers are burdened not only with lesson planning and student engagement but also with the repetitive and time-consuming task of typing the same grades and student data into multiple Excel files—over and over again. This inefficient process often leads to fatigue, data inconsistencies, and wasted hours that could have been better spent on instruction and student support.

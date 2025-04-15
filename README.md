@@ -94,7 +94,7 @@ To get started with MOGUERA-SDTS, follow the steps below to set up the project o
 Begin by cloning the repository from GitHub to your local machine:
 
 ```bash
-git clone https://github.com/PrinceDale99/MOGUERA-SDTS.git
+git clone [https://github.com/PrinceDale99/MOGUERA-SDTS.git](https://github.com/PrinceDale99/MOGUERA-SDTS.git)
 ```
 ### 2. Navigate to the Project Directory
 ```bash

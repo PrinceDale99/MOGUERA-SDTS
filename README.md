@@ -128,3 +128,19 @@ This project would not have been possible without the invaluable support, guidan
 ---
 
 > To each of you—thank you for believing in this project and helping turn it into a functional, meaningful solution for educators.
+
+
+
+## Live Demo
+
+Experience **MOGUERA-SDTS** in action through our official demo video:
+
+[![Watch the Demo](https://img.youtube.com/vi/M5ZWXuJ5dHbNscVs/0.jpg)](https://m.youtube.com/watch?si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be)
+
+> Click the thumbnail above or [watch it directly on YouTube](https://www.youtube.com/watch?v=M5ZWXuJ5dHbNscVs) to see how the system simplifies grade encoding and data transfer while preserving Excel formatting and performance integrity.
+
+This video walkthrough covers:
+- System features and navigation
+- How to input and transfer data
+- Real-time preview and error checking
+- Speed and accuracy showcase with PD Local Database Technology

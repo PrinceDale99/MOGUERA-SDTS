@@ -16,6 +16,7 @@ The name MOGUERA-SDTS is inspired by one of my favorite kaiju, Moguera, a powerf
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 - [Live Demo](#live-demo)
+
 ## Project Overview
 
 In today’s fast-paced academic environment, teachers are burdened not only with lesson planning and student engagement but also with the repetitive and time-consuming task of typing the same grades and student data into multiple Excel files—over and over again. This inefficient process often leads to fatigue, data inconsistencies, and wasted hours that could have been better spent on instruction and student support.
@@ -27,6 +28,12 @@ Unlike typical solutions like *Pandas" or *OpenPyXL*, which tend to overwrite or
 At the heart of its blazing-fast performance is the **PD Local Database Storage Technology**, a custom-engineered temporary data storage system developed by PD Technologies for this project. This technology seamlessly integrates into the application's core, acting as a rapid-access, lightweight local database. Instead of fetching data directly from bulky files each time, MOGUERA-SDTS retrieves necessary information from a temporary cache file generated during runtime. This optimization drastically improves speed, reduces file I/O overhead, and results in a smooth, responsive experience for the user.
 
 Whether you're updating dozens of grading sheets or compiling student reports across various sections, MOGUERA-SDTS transforms what was once a tedious chore into a one-click solution—reliable, intelligent, and designed with educators in mind.
+
+### Languages Used:
+- Python (primarily)
+- Java (for the Java GUI variant)
+- Shell
+- Visual Basic for Application
 
 ## Key Features
 

@@ -50,51 +50,6 @@ Begin by cloning the repository from GitHub to your local machine:
 
 ```bash
 git clone https://github.com/PrinceDale99/MOGUERA-SDTS.git
-Here's the README.md with proper Markdown formatting:
-
-# MOGUERA-SDTS (Grade and Data Transfer System)
-
-MOGUERA-SDTS is an advanced data handling and grade management system designed to streamline the process of transferring grades and data across various platforms with impeccable precision. Unlike traditional libraries such as Pandas and OpenPyXL, MOGUERA-SDTS preserves the intricate formatting of Excel files, ensuring that every detail is faithfully maintained throughout the data transfer process.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-## Project Overview
-
-MOGUERA-SDTS is built to optimize the management and transfer of grade data with exceptional attention to detail. Designed with educators and administrative professionals in mind, this system offers seamless integration for transferring data between various formats while preserving the integrity of Excel spreadsheets.
-
-Unlike libraries such as **Pandas** and **OpenPyXL**, which focus on data analysis and general manipulation, MOGUERA-SDTS prioritizes the accuracy and formatting of Excel files, ensuring that all grades, formatting styles, formulas, and other intricate details remain intact during data processing. Whether it's for bulk transferring grades or updating school databases, MOGUERA-SDTS ensures that no valuable information is lost.
-
-## Key Features
-
-- **Excel Formatting Preservation**: MOGUERA-SDTS stands out by ensuring that Excel file formatting (such as cell color, fonts, and cell borders) is fully retained, making it ideal for professional environments where presentation matters.
-  
-- **Seamless Grade Transfer**: Effortlessly transfer and update grades while maintaining data integrity. No more worry about losing data or formatting during batch imports/exports.
-  
-- **Advanced Data Mapping**: Advanced algorithms map data fields from various sources into Excel columns, making integration smoother without manual intervention.
-  
-- **User-Friendly Interface**: A straightforward, intuitive interface ensures that both novice and experienced users can perform operations with minimal learning curve.
-  
-- **Data Integrity**: The system prioritizes accuracy, ensuring that no data corruption occurs during the transfer process. Whether it's numbers, formulas, or text, everything is transferred as is.
-
-- **Compatibility**: Fully compatible with the latest versions of Excel and other CSV/Tab-delimited file formats, MOGUERA-SDTS ensures that your workflow is never disrupted by incompatible file types.
-
-## Installation
-
-To get started with MOGUERA-SDTS, follow the steps below to set up the project on your local machine.
-
-### 1. Clone the Repository
-
-Begin by cloning the repository from GitHub to your local machine:
-
-```bash
-git clone [https://github.com/PrinceDale99/MOGUERA-SDTS.git](https://github.com/PrinceDale99/MOGUERA-SDTS.git)
 ```
 ### 2. Navigate to the Project Directory
 ```bash

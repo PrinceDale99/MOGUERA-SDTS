@@ -1,4 +1,5 @@
-# M.O.G.U.E.R.A.-S.D.T.S. (Managing and Organizing Grades Using Efficient Record Administration – Student Data Transfer System)
+# M.O.G.U.E.R.A.-S.D.T.S.
+###(Managing and Organizing Grades Using Efficient Record Administration – Student Data Transfer System)
 
 **MOGUERA-SDTS** is an advanced data handling and grade management system designed to streamline the process of transferring grades and data across various platforms with impeccable precision. Unlike traditional libraries such as Pandas and OpenPyXL, MOGUERA-SDTS preserves the intricate formatting of Excel files, ensuring that every detail is faithfully maintained throughout the data transfer process.
 

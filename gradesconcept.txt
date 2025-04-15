@@ -1,0 +1,119 @@
+
+transfer the student details from sf1.xlsx to MFQ1.xlsx (from column 6 to 100
+NAME = {
+first from the sf1.xlsx
+READ FROM THIS
+for male = from column 11 to 50, for female = from column 52 to 91
+	get the lrn from column B, now transfer it to MFQ1.xlsx to row A
+	get the gender from column G, i, now transfer it to MFQ1.xlsx to row BA
+	get the age from column H,I, now transfer it to MFQ1.xlsx to row BB
+	get the birth from column J,K, now transfer it to MFQ1.xlsx to row BA
+	get the name from column C,D,E,F now transfer it to MFQ1.xlsx to row B
+
+	get the name {
+	get the word before the comma 	(Example: name is 'Dela Cruz, Juan P.', what you will get is Dela Cruz), that will be the LAST NAME, now u transfer it to MFQ1.xlsx to row AW 
+	now get the initial at the last part with the dot, for example, using the example previously, what you will get is P.) now transfer it to MFQ1.xlsx to row AY
+	now lastly, get the remaining part on that, that will be the last name now transfer it to MFQ1.xlsx to row AX 
+	for male students on MFQ1.xlsx transfer from column 6 to 49
+	for female students on MFQ1.xlsx transfer from column 52 to 100 (below the row is provided)
+
+SAMPLE CODE:
+```
+def extract_name_details(full_name):
+    parts = full_name.split(",")
+    if len(parts) < 2:
+        return "Invalid format. Please use the format: 'LAST NAME, FIRST NAME M.I.'"
+    last_name = parts[0].strip()
+    remaining_part = parts[1].strip()
+    name_parts = remaining_part.split()
+    if len(name_parts) < 2:
+        return "Invalid format. Please ensure there is a middle in itial."
+    middle_initial = name_parts[-1]
+    first_name = " ".join(name_parts[:-1])
+    return last_name, first_name, middle_initial
+full_name = input("Enter the name (LAST NAME, FIRST NAME M.I.): ")
+result = extract_name_details(full_name)
+if isinstance(result, tuple):
+    last_name, first_name, middle_initial = result
+    print(f"Last Name: {last_name}")
+    print(f"First Name: {first_name}")
+    print(f"Middle Initial: {middle_initial}")
+else:
+    print(result)
+```
+	}
+
+now for each data or student
+make the user select where to save the files
+after selecting the target location, use folders to separate
+like this
+...SF9(folder) > (store the sf9 files here)
+...SF10(folder) > (store the sf10 files here)
+after selecting the target location copy the SF9 and SF10 template (template is located on the same file as where this py file is located)
+and for each student/data make a copy for each one, and edit them with their details, below is provided what and where to edit
+the file name of each one must be their LRN so its unique and won't cause any problems
+
+now for each student transfer the names from column B (MFQ1.xlsx) to Q22 (SF9.xlsb)
+transfer the last names from column AW (MFQ1.xlsx) to column F,G,H,I,J,K,L,M,N,O,P,Q,R,S row 8(sf10.xlsx)
+transfer the first names from column AX (MFQ1.xlsx) to column Y,Z,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK,AL,AM,AN,AO,AP,AQ,AR row 8(sf10.xlsx)
+transfer the middle names from column AY (MFQ1.xlsx) to column AZ,BA,BB,BC,BD,BE,BF,BG,BH,BI,BJ,BK,BL,BM,BN,BO row 8(sf10.xlsx)
+transfer the lrn from column A (MFQ1.xlsx) to column C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q row 9(sf10.xlsx) and T3 (SF9.xlsb)
+transfer the BIRTH from column BC (MFQ1.xlsx) to column AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK row 9(sf10.xlsx)
+transfer the GENDER from column A (MFQ1.xlsx) to column AN,AO,AP AQ,AR, row 9(sf10.xlsx)
+transfer the BIRTH from column A (MFQ1.xlsx) to column AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK row 9(sf10.xlsx)
+
+
+subjects
+FOR FIRST GRADING / FIRST QUARTER {
+for male students on MFQ1.xlsx read from column 6 to 49
+for female students on MFQ1.xlsx read from column 52 to 100 (below the row is provided)
+for each student get row D, transfer it to SF9.xlsb on C7, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 31
+for each student get row E, transfer it to SF9.xlsb on C8, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 32
+for each student get row F, transfer it to SF9.xlsb on C9, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 33
+for each student get row G, transfer it to SF9.xlsb on C11, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 34
+for each student get row H, transfer it to SF9.xlsb on C12, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 35
+for each student get row I, transfer it to SF9.xlsb on C13, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 36
+for each student get row J, transfer it to SF9.xlsb on C15, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 37
+for each student get row K, transfer it to SF9.xlsb on C16, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 38
+}
+
+FOR SECOND GRADING / SECOND QUARTER {
+for male students on MFQ2.xlsx read from column 6 to 49
+for female students on MFQ2.xlsx read from column 52 to 100 (below the row is provided)
+for each student get row D, transfer it to SF9.xlsb on D7, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 31
+for each student get row E, transfer it to SF9.xlsb on D8, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 32
+for each student get row F, transfer it to SF9.xlsb on D9, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 33
+for each student get row G, transfer it to SF9.xlsb on D11, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 34
+for each student get row H, transfer it to SF9.xlsb on D12, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 35
+for each student get row I, transfer it to SF9.xlsb on D13, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 36
+for each student get row J, transfer it to SF9.xlsb on D15, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 37
+for each student get row K, transfer it to SF9.xlsb on D16, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 38
+}
+
+FOR THIRD GRADING / THIRD QUARTER {
+for male students on MFQ3.xlsx read from column 6 to 49
+for female students on MFQ3.xlsx read from column 52 to 100 (below the row is provided)
+for each student get row D, transfer it to SF9.xlsb on C23, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 74
+for each student get row E, transfer it to SF9.xlsb on C24, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 75
+for each student get row F, transfer it to SF9.xlsb on C25, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 76
+for each student get row G, transfer it to SF9.xlsb on C26, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 77
+for each student get row H, transfer it to SF9.xlsb on C27, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 78
+for each student get row I, transfer it to SF9.xlsb on C28, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 79
+for each student get row J, transfer it to SF9.xlsb on C30, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 80
+for each student get row K, transfer it to SF9.xlsb on C31, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 81
+for each student get row L, transfer it to SF9.xlsb on C32, also transfer it to sf10.xlsx on row AT,AU,AV,AW,AX column 82
+}
+
+FOR FOUR GRADING / FOUR QUARTER {
+for male students on MFQ4.xlsx read from column 6 to 49
+for female students on MFQ4.xlsx read from column 52 to 100 (below the row is provided)
+for each student get row D, transfer it to SF9.xlsb on D23, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 74
+for each student get row E, transfer it to SF9.xlsb on D24, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 75
+for each student get row F, transfer it to SF9.xlsb on D25, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 76
+for each student get row G, transfer it to SF9.xlsb on D26, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 77
+for each student get row H, transfer it to SF9.xlsb on D27, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 78
+for each student get row I, transfer it to SF9.xlsb on D28, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 79
+for each student get row J, transfer it to SF9.xlsb on D30, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 80
+for each student get row K, transfer it to SF9.xlsb on D31, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 81
+for each student get row L, transfer it to SF9.xlsb on D32, also transfer it to sf10.xlsx on row AY,AZ,BA,BB,BC column 82
+}

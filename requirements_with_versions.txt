@@ -1,0 +1,23 @@
+concurrent==Not Installed
+customtkinter==5.2.2
+datetime==Not Installed
+logging==Not Installed
+mmap==Not Installed
+nig==Not Installed
+openpyxl==3.1.5
+os==Not Installed
+pandas==2.2.3
+pythoncom==Not Installed
+queue==Not Installed
+re==Not Installed
+shutil==Not Installed
+sqlite3==Not Installed
+subprocess==Not Installed
+sys==Not Installed
+threading==Not Installed
+time==Not Installed
+tkinter==Not Installed
+typing==3.7.4.3
+watchdog==6.0.0
+win32com==Not Installed
+xlwings==0.33.6

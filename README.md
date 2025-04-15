@@ -153,3 +153,44 @@ This video walkthrough covers:
 - How to input and transfer data
 - Real-time preview and error checking
 - Speed and accuracy showcase with PD Local Database Technology
+
+
+## Credits
+
+### Core Development
+- Programmed by: Prince Dale Limosnero
+- System Architect: Prince Dale Limosnero
+- Backend Developer: Prince Dale Limosnero
+- Frontend Developer: Prince Dale Limosnero
+- Excel Integration Developer: Prince Dale Limosnero
+
+
+### Optimization & Performance
+Optimized by: Prince Dale Limosnero
+Data Handling Engineer: Prince Dale Limosnero
+PD Local Database Technology Integrator: Prince Dale Limosnero
+Formula & Formatting Preserver: Prince Dale Limosnero
+
+
+### Design & Interface
+UI/UX Designer: Prince Dale Limosnero
+System Interface Developer: Prince Dale Limosnero
+Dashboard Layout Designer: Prince Dale Limosnero
+
+
+### Quality & Evaluation
+Tested by: Sir Bryan Vivar, Ma'am Xandria Peralta, & Ma'am Melanie Zaragoza
+System Evaluator: Ma'am Maureen Medes
+Debugging & Quality Assurance: Prince Dale Limosnero
+Performance Checker: Prince Dale Limosnero
+
+
+### Management & Supervision
+Project Supervisor: Ma'am Cheryll Lanuzga
+Project Coordinator: Sir Alvin Segundo
+Idea Originator / Concept by: Sir Alvin Segundo
+Research Advisor: Sir Alvin Segundo
+
+
+### Special Acknowledgements
+Device Provider: Yisrael Wytat Castañares

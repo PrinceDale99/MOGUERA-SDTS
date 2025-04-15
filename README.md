@@ -135,9 +135,9 @@ This project would not have been possible without the invaluable support, guidan
 
 Experience **MOGUERA-SDTS** in action through our official demo video:
 
-[![Watch the Demo](https://img.youtube.com/vi/M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be/0.jpg)](https://m.youtube.com/watch?si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be)
+[![Watch the Demo](https://img.youtube.com/vi/si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be/0.jpg)](https://m.youtube.com/watch?si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be)
 
-> Click the thumbnail above or [watch it directly on YouTube](https://www.youtube.com/watch?v=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be) to see how the system simplifies grade encoding and data transfer while preserving Excel formatting and performance integrity.
+> Click the thumbnail above or [watch it directly on YouTube](https://www.youtube.com/watch?si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be) to see how the system simplifies grade encoding and data transfer while preserving Excel formatting and performance integrity.
 
 This video walkthrough covers:
 - System features and navigation

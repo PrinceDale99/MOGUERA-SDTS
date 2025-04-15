@@ -1,0 +1,83 @@
+make a python program that does this
+
+
+# i already have the SF1.xlsx, SF5A.xlsx, SF5B.xlsx in the same folder as the python program so u may use it
+it must prompt the user to select where he wants to save or store the files
+then
+it makes a master form.xlsx file in the created folder and gets this infos for each student 
+LRN, 
+NAME (Last Name, First Name, Name Extension (if there are), Middle Name) 
+SEX (Male or Female)
+Birthdate (mm/dd/yyyy)
+AGE
+Religious Affiliation
+House No./Street/Sitio/Purok
+Barangay
+Municipality/City
+Province
+Father's Name (Last Name, First Name, Name Extension (if there are), Middle Name) 
+Mother's Maiden Name (Last Name, First Name, Name Extension (if there are), Middle Name) 
+
+if learner is not living with parent, so optional)
+GUARDIAN Name ((Last Name, First Name, Name Extension (if there are), Middle Name) 
+Relationship: (eg uncle, sister, etc...)
+
+Contact Number of Parent or Guardian
+
+
+ALL INFOS MUST BE MATCHING TO THE STUDENT
+for the SF1 {
+for the males: {
+it must be transferred to column 11 to column 50
+must be ordered alphabetically with the names
+lrn must be transferred to row a, b
+Name is in this format (Last Name, First Name, Name Extension (if there are), Middle Name) and must be transferred to row C, D, E, F
+Sex (If student is Male, put M, if female put F) and it must be transferred to row G
+BIRTHDATE (must be in mm/dd/yyyy format) must be transferred to row H, I
+AGE must be tranferred to row J, K
+Religious Affiliations must be transferred to row L
+House No./ Street/ Sitio/ Purok must be transferred to row M	
+Barangay must be transferred to row N,O,P,Q
+Municipality/City must be transferred to row R,S
+Province must be transferred to T,U,V
+Father's name (must be in (Last Name, First Name, Name Extension (if there are), Middle Name) format) must be transferred to row W
+Mother's name (must be in (Last Name, First Name, Name Extension (if there are), Middle Name) format) must be transferred to row X, Y
+
+if there are no guardian inputted just leave this, do not input any {
+GUARDIAN Name (again, must be in (Last Name, First Name, Name Extension (if there are), Middle Name) format) must be transferred to row Z, AA, AB
+Relationship must be transferred to row AC
+}
+
+Contact Number of Parent/Guardian must be transferred to row AD
+}
+
+for the females : {
+just the same from the males, same rows, but the column will be different it will be inputted to column 52 to 91
+}
+
+for the SF5A {
+for the males {
+for the NO. tabs just put an ordered number in column b from row 13 to 43
+then transfer the learner's name in this format(Last Name, First Name, Name Extension (if there are), Middle Name) on column d, e, f, g, h, i from row 13 to 43
+again this must be in alphabetical manner based on the names
+now transfer the lrn of the  students in column c from row 13 to 43
+ }
+for the females {
+just do the same as the males, but instead of row 13 to 43 its row 45 to 66
+}}
+
+for the SF5B {
+for the males {
+for the NO. tabs just put an ordered number in column A from row 15 to 43
+then transfer the learner's name in this format(Last Name, First Name, Name Extension (if there are), Middle Name) on column c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r from row 15 to 43
+again this must be in alphabetical manner based on the names
+now transfer the lrn of the  students in column b from row 15 to 43
+ }
+for the females {
+just do the same as the males, but instead of row 13 to 43 its row 45 to 65
+}}
+
+
+all the newly created modified xlsx files will be stored now in the selected folder
+
+

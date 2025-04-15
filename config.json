@@ -1,0 +1,14 @@
+{
+  "SF1": {
+    "males_start_row": 2,
+    "females_start_row": 27
+  },
+  "SF5A": {
+    "males_start_row": 13,
+    "females_start_row": 45
+  },
+  "SF5B": {
+    "males_start_row": 15,
+    "females_start_row": 45
+  }
+}

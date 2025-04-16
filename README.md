@@ -119,13 +119,6 @@ For full legal terms and usage rights, refer to the complete [LICENSE](./LICENSE
 
 > Unauthorized use, duplication, or distribution may lead to legal action.
 
-
-Acknowledgments
-
-Inspired by the need for a reliable and formatting-preserving grade transfer system: MOGUERA-SDTS was conceived to address the shortcomings of traditional data manipulation tools in handling Excel files with complex formatting.
-
-Special thanks to the open-source community: For their continued contributions, tools, and libraries that make MOGUERA-SDTS possible.
-
 ## Acknowledgements
 
 This project would not have been possible without the invaluable support, guidance, and inspiration of the following individuals:
@@ -146,7 +139,7 @@ This project would not have been possible without the invaluable support, guidan
 
 Experience **MOGUERA-SDTS** in action through our official demo video:
 
-[![Watch the Demo](https://img.youtube.com/vi/si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be/0.jpg)](https://m.youtube.com/watch?si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be)
+[![Watch the video](https://img.youtube.com/vi/Sk8giFtyxGY/0.jpg)](https://www.youtube.com/watch?v=Sk8giFtyxGY)
 
 > Click the thumbnail above or [watch it directly on YouTube](https://www.youtube.com/watch?si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be) to see how the system simplifies grade encoding and data transfer while preserving Excel formatting and performance integrity.
 

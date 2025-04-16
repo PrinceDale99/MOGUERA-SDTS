@@ -139,7 +139,7 @@ This project would not have been possible without the invaluable support, guidan
 
 Experience **MOGUERA-SDTS** in action through our official demo video:
 
-[![Watch the video](https://img.youtube.com/vi/Sk8giFtyxGY/0.jpg)](https://www.youtube.com/watch?v=Sk8giFtyxGY)
+[![Watch the video](https://img.youtube.com/vi/6QPgvz1uF_k/maxresdefault.jpg)](https://www.youtube.com/watch?v=Sk8giFtyxGY)
 
 > Click the thumbnail above or [watch it directly on YouTube](https://www.youtube.com/watch?si=M5ZWXuJ5dHbNscVs&v=6QPgvz1uF_k&feature=youtu.be) to see how the system simplifies grade encoding and data transfer while preserving Excel formatting and performance integrity.
 
